@@ -1,0 +1,7 @@
+echo "# COGS108_Repo" >> .gitignore
+git init
+git add .gitignore
+git commit -m "second commit"
+git branch -M main
+git remote add origin https://github.com/veloimv/COGS108_Repo.git
+git push -u origin main
